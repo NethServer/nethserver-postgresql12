@@ -27,7 +27,7 @@ Example for accessing with postgres user: ::
 
 Access PostgreSQL 12.0: ::
 
-  su - postgres -c "scl enable rh-postgresql12 -- psql"
+  su - postgres -c "scl enable rh-postgresql12 -- psql --port=55434"
 
 Backup
 ======
